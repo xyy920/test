@@ -1,0 +1,143 @@
+.main{
+    width: 100%;
+    height: 98vh !important;
+}
+.regulations-management-main-content {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position:relative;
+}
+
+.rmm-content-top {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #4591d8;
+    box-sizing: border-box;
+}
+
+/* 审计法规管理---按钮部分 */
+.layui-btn {
+    margin: 0;
+    padding: 0;
+}
+/* 审计法规管理---按钮*/
+.rmm-btn01 {
+    background-color: #4591d8;
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* 审计法规管理---查询、新增、导入、发布*/
+.rmm-comm {
+    width: 66px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.rmm-btn02 {
+    background-color: #1c84c6;
+}
+
+.rmm-btn03 {
+    background-color: #1ea489;
+}
+
+.rmm-btn04 {
+    background-color: #1a91b3;
+}
+
+.rmm-btn06 {
+    background-color: #1e9ca4;
+}
+
+.rmm-btn05 {
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #1e9ca4;
+}
+
+.rmm-btn-right {
+    height: 40px;
+    line-height: 40px;
+}
+
+.rmm-content-lists {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    /* border:1px solid red; */
+    height: 80%;
+    overflow-y: auto;
+}
+.rmm-content-lists  .layui-table{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    overflow-y: auto;
+}
+.rmm-content-lists .layui-table tr {
+    height: 36px;
+}
+.rmm-content-lists .layui-table th{
+    font-weight: bold;
+}
+.rmm-content-lists .layui-table td, .layui-table th {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    border:none;
+    font-size: 12px;
+}
+/* 分页部分 */
+.f-page {
+    width: 100%;
+   height:50px;
+   position: absolute;
+   bottom:0px;
+}
+
+#demo {
+    float: right;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+/* 左侧按钮 */
+.shousuo {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: -10px;
+    width: 7px;
+    height: 60px;
+    background-color: #4591d8 !important;
+    border-radius: 0 5px 5px 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+/* checkbox框的样式 */
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #f1f6fb;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
